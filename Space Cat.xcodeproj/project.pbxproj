@@ -19,10 +19,10 @@
 		2D1C84B51A672300000D8667 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1C84B31A672300000D8667 /* spark.png */; };
 		2D1C84B71A672B5C000D8667 /* HUDNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C84B61A672B5C000D8667 /* HUDNode.swift */; };
 		2D1C84B91A6738A6000D8667 /* GameOverNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C84B81A6738A6000D8667 /* GameOverNode.swift */; };
+		2D1C84F31A67D774000D8667 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2D1C84F21A67D774000D8667 /* Sprites.atlas */; };
 		2D56EDCE1A63761700E2DDEA /* GameTitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56EDCD1A63761700E2DDEA /* GameTitleScene.swift */; };
 		2D56EDD21A63889B00E2DDEA /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56EDD11A63889B00E2DDEA /* GamePlayScene.swift */; };
 		2D56EDD41A63899400E2DDEA /* GamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D56EDD31A63899400E2DDEA /* GamePlayScene.sks */; };
-		2D56EDD61A6392E100E2DDEA /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2D56EDD51A6392E100E2DDEA /* Sprites.atlas */; };
 		2D56EDD81A63987200E2DDEA /* MachineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56EDD71A63987200E2DDEA /* MachineNode.swift */; };
 		2D56EDDA1A63A30800E2DDEA /* SpaceCatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56EDD91A63A30800E2DDEA /* SpaceCatNode.swift */; };
 		2D56EDDC1A63AC4F00E2DDEA /* ProjectileNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56EDDB1A63AC4F00E2DDEA /* ProjectileNode.swift */; };
@@ -61,10 +61,10 @@
 		2D1C84B31A672300000D8667 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		2D1C84B61A672B5C000D8667 /* HUDNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDNode.swift; sourceTree = "<group>"; };
 		2D1C84B81A6738A6000D8667 /* GameOverNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverNode.swift; sourceTree = "<group>"; };
+		2D1C84F21A67D774000D8667 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		2D56EDCD1A63761700E2DDEA /* GameTitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTitleScene.swift; sourceTree = "<group>"; };
 		2D56EDD11A63889B00E2DDEA /* GamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
 		2D56EDD31A63899400E2DDEA /* GamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GamePlayScene.sks; sourceTree = "<group>"; };
-		2D56EDD51A6392E100E2DDEA /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Sprites.atlas; path = "../../../../Downloads/SpaceCat-Assets/Sprites.atlas"; sourceTree = "<group>"; };
 		2D56EDD71A63987200E2DDEA /* MachineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineNode.swift; sourceTree = "<group>"; };
 		2D56EDD91A63A30800E2DDEA /* SpaceCatNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceCatNode.swift; sourceTree = "<group>"; };
 		2D56EDDB1A63AC4F00E2DDEA /* ProjectileNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectileNode.swift; sourceTree = "<group>"; };
@@ -139,6 +139,7 @@
 		2DC7EDAB1A63608900F550DB /* Space Cat */ = {
 			isa = PBXGroup;
 			children = (
+				2D1C84F21A67D774000D8667 /* Sprites.atlas */,
 				2D69D2A11A646FFA00FE824E /* GroundNode.swift */,
 				2D1C84B61A672B5C000D8667 /* HUDNode.swift */,
 				2D1C84B81A6738A6000D8667 /* GameOverNode.swift */,
@@ -157,7 +158,6 @@
 				2D1C84B31A672300000D8667 /* spark.png */,
 				2DC7EDB61A63608900F550DB /* Main.storyboard */,
 				2DC7EDBB1A63608A00F550DB /* LaunchScreen.xib */,
-				2D56EDD51A6392E100E2DDEA /* Sprites.atlas */,
 				2DC7EDB91A63608900F550DB /* Images.xcassets */,
 				2D1C84911A6624EF000D8667 /* Sounds */,
 				2DC7EDAC1A63608900F550DB /* Supporting Files */,
@@ -272,7 +272,6 @@
 			files = (
 				2D1C84981A662513000D8667 /* Laser.caf in Resources */,
 				2D1C84A11A6667EB000D8667 /* GameOver.mp3 in Resources */,
-				2D56EDD61A6392E100E2DDEA /* Sprites.atlas in Resources */,
 				2DC7EDBD1A63608A00F550DB /* LaunchScreen.xib in Resources */,
 				2D1C84991A662513000D8667 /* PressStart.caf in Resources */,
 				2D1C84B41A672300000D8667 /* Explosion.sks in Resources */,
@@ -280,6 +279,7 @@
 				2DC7EDBA1A63608900F550DB /* Images.xcassets in Resources */,
 				2D1C84971A662513000D8667 /* Explode.caf in Resources */,
 				2DC7EDB11A63608900F550DB /* GameTitleScene.sks in Resources */,
+				2D1C84F31A67D774000D8667 /* Sprites.atlas in Resources */,
 				2D1C84B51A672300000D8667 /* spark.png in Resources */,
 				2DC7EDB81A63608900F550DB /* Main.storyboard in Resources */,
 				2D1C849F1A6667EB000D8667 /* StartScreen.mp3 in Resources */,
